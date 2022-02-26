@@ -1,0 +1,42 @@
+div {
+    color: #ffe8d6;
+}
+.about-main {
+    background: linear-gradient(#393a3769, transparent),
+        url("https://raw.githubusercontent.com/hamzaplojovic/About-Page/master/images/wp7181995-study-table-wallpapers.jpg");
+    width: 100%;
+    height: 480px;
+    padding: 0;
+    margin: 0;
+    mix-blend-mode: darken;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.heading {
+    margin: 0;
+    font-size: 40px;
+}
+.icons {
+    margin-top: 20px;
+    width: 20%;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    justify-content: space-between;
+}
+
+svg {
+    width: 70px;
+}
+
+.animation {
+    width: 100%;
+    background-color: #393a3769;
+}
