@@ -1,0 +1,74 @@
+.contact {
+    width: 100%;
+    height: 520px;
+    background-color: #333d29;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-heading {
+    padding-top: 50px;
+}
+
+.send {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    width: 40%;
+    padding: 20px;
+}
+
+.send input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: #ffe8d6;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.send textarea {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 100px;
+    background-color: #ffe8d6;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.send button {
+    width: 50%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333d29;
+    background-color: #ffe8d6;
+    transition: all ease-in 0.3s;
+}
+
+.contact-main {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 40px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    text-align: center;
+}
+
+.contact-info iframe {
+    border-radius: 20px;
+}

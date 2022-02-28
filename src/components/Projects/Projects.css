@@ -1,0 +1,43 @@
+.projects {
+    background-color: #ffe8d6;
+    width: 100%;
+    height: 650px;
+    color: #333d29;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    color: #333d29;
+    width: 25%;
+    border: 3px solid #333d29;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 120px;
+    justify-content: space-between;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.about-heading {
+    padding-top: 40px;
+}
+
+.link {
+    color: #333d29;
+    text-decoration: underline;
+}
