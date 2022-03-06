@@ -18,7 +18,7 @@ function Contact() {
         document.querySelector("button").style.color = "#333d29";
     };
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <h1 className="contact-heading" data-aos="fade-right">
                 Contact
             </h1>

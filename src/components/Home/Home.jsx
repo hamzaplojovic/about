@@ -9,7 +9,7 @@ import { ReactComponent as YourSvg1 } from "/Users/hamzaplojovic/Desktop/Desktop
 import { ReactComponent as YourSvg2 } from "/Users/hamzaplojovic/Desktop/Desktop/Projects/React-About/my-app/src/img/upwork.svg";
 
 export const MyComponent = () => (
-    <motion.div animate={{ rotate: 720 }} transition={{ duration: 1.5 }}>
+    <motion.div animate={{ rotate: 1080 }} transition={{ duration: 1.5 }}>
         <a href="https://www.github.com/hamzaplojovic">
             <YourSvg />
         </a>
