@@ -4,9 +4,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { motion } from "framer-motion";
 
-import { ReactComponent as YourSvg } from "/Users/hamzaplojovic/Desktop/Desktop/Projects/React-About/my-app/src/img/github.svg";
-import { ReactComponent as YourSvg1 } from "/Users/hamzaplojovic/Desktop/Desktop/Projects/React-About/my-app/src/img/hackerrank.svg";
-import { ReactComponent as YourSvg2 } from "/Users/hamzaplojovic/Desktop/Desktop/Projects/React-About/my-app/src/img/upwork.svg";
+import { ReactComponent as YourSvg } from "./img/github.svg";
+import { ReactComponent as YourSvg1 } from "./img/hackerrank.svg";
+import { ReactComponent as YourSvg2 } from "./img/upwork.svg";
 
 export const MyComponent = () => (
     <motion.div animate={{ rotate: 1080 }} transition={{ duration: 1.5 }}>
