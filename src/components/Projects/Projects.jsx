@@ -32,7 +32,7 @@ function Projects() {
                     name="hamzaplojovic"
                     desc="This is about readme for github."
                     link="github.com/hamzaplojovic/hamzaplojovic"
-                    aos="fade-down-right"
+                    aos="fade-down"
                     duration="700"
                 />
                 <Card
@@ -46,7 +46,7 @@ function Projects() {
                     name="Todo"
                     desc="Todo app to make yourself more organized."
                     link="github.com/hamzaplojovic/React-Todo"
-                    aos="fade-down-left"
+                    aos="fade-down"
                     duration="1100"
                 />
             </div>
@@ -55,7 +55,7 @@ function Projects() {
                     name="Auto Clicker"
                     desc="This is python bot that clicks 100 cps"
                     link="github.com/hamzaplojovic/auto-clicker"
-                    aos="fade-up-right"
+                    aos="fade-up"
                     duration="1300"
                 />
                 <Card
@@ -69,7 +69,7 @@ function Projects() {
                     name="Travello"
                     desc="Template for travel company."
                     link="github.com/hamzaplojovic/Travel-Website"
-                    aos="fade-up-left"
+                    aos="fade-up"
                     duration="1700"
                 />
             </div>

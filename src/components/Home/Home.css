@@ -41,3 +41,9 @@ svg {
     width: 100%;
     background-color: #393a3769;
 }
+
+@media only screen and (max-width: 1223px) {
+    .about-main h1 {
+        margin-bottom: 150px;
+    }
+}
