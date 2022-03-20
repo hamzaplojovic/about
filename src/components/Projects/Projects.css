@@ -50,3 +50,80 @@
         font-size: 13px;
     }
 }
+
+.projects2,
+.projects3 {
+    display: none;
+    width: 100%;
+    height: 800px;
+}
+
+@media only screen and (max-width: 880px) {
+    .projects2 {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffe8d6;
+        width: 100%;
+        height: 850px;
+        color: #333d29;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .projects2 h1 {
+        font-size: 20px;
+    }
+    .projects2 .card {
+        width: 35%;
+    }
+    .projects {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .projects2 {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffe8d6;
+        width: 100%;
+        height: 850px;
+        color: #333d29;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .projects2 h1 {
+        font-size: 20px;
+    }
+    .projects2 .card {
+        width: 35%;
+    }
+    .projects {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .projects3 {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffe8d6;
+        width: 100%;
+        height: 1550px;
+        color: #333d29;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .projects3 h1 {
+        font-size: 20px;
+    }
+    .projects3 .card {
+        width: 35%;
+    }
+    .projects,
+    .projects2 {
+        display: none;
+    }
+}
