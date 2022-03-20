@@ -57,7 +57,7 @@
 .contact-main {
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    width: 40%;
     margin-top: 40px;
 }
 
@@ -71,4 +71,10 @@
 
 .contact-info iframe {
     border-radius: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .contact-main {
+        width: 55%;
+    }
 }
