@@ -19,6 +19,8 @@ const Card = (props) => {
     );
 };
 
+const clickHandler = () => {};
+
 const ProjectsTablet = () => {
     return (
         <div className="projects2" id="projects2">
@@ -71,6 +73,10 @@ const ProjectsTablet = () => {
                     duration="1700"
                 />
             </div>
+            <h5 className="sign-up-text">
+                Sign up for other projects that are not on Github
+            </h5>
+            <button onClick={clickHandler}>Sign up</button>
         </div>
     );
 };
@@ -133,6 +139,10 @@ const ProjectsPhone = () => {
                     duration="1700"
                 />
             </div>
+            <h3 className="sign-up-text">
+                Sign up for other projects that are not on Github
+            </h3>
+            <button onClick={clickHandler}>Sign up</button>
         </div>
     );
 };
@@ -192,7 +202,12 @@ function Projects() {
                         duration="1700"
                     />
                 </div>
+                <h3 className="sign-up-text">
+                    Sign up for other projects that are not on Github
+                </h3>
+                <button onClick={clickHandler}>Sign up</button>
             </div>
+
             <ProjectsTablet />
             <ProjectsPhone />
         </div>
