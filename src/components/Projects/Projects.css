@@ -112,7 +112,8 @@
 }
 
 button {
-    width: 150px;
+    width: 200px;
+    text-align: center;
     height: 35px;
     border-radius: 50px;
     border: #333d29 2px solid;

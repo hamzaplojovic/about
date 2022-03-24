@@ -19,8 +19,6 @@ const Card = (props) => {
     );
 };
 
-const clickHandler = () => {};
-
 const ProjectsTablet = () => {
     return (
         <div className="projects2" id="projects2">
@@ -76,7 +74,7 @@ const ProjectsTablet = () => {
             <h5 className="sign-up-text">
                 Sign up for other projects that are not on Github
             </h5>
-            <button onClick={clickHandler}>Sign up</button>
+            <button>Sign up</button>
         </div>
     );
 };
@@ -142,7 +140,7 @@ const ProjectsPhone = () => {
             <h3 className="sign-up-text">
                 Sign up for other projects that are not on Github
             </h3>
-            <button onClick={clickHandler}>Sign up</button>
+            <button>Sign up</button>
         </div>
     );
 };
@@ -202,10 +200,18 @@ function Projects() {
                         duration="1700"
                     />
                 </div>
-                <h3 className="sign-up-text">
-                    Sign up for other projects that are not on Github
+                <h3
+                    className="sign-up-text"
+                    data-aos="fade-up"
+                    data-aos-duration="1700"
+                >
+                    Click the button to get access to exclusive projects
                 </h3>
-                <button onClick={clickHandler}>Sign up</button>
+                <a href="https://hamzaplojovic-projects.pages.dev">
+                    <button data-aos="fade-up" data-aos-duration="1700">
+                        Exclusive Projects
+                    </button>
+                </a>
             </div>
 
             <ProjectsTablet />
