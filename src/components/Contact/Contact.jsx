@@ -9,13 +9,10 @@ function Contact() {
         AOS.refresh();
     }, []);
     const mouse = () => {
-        document.querySelector("button").style.background = "#333d29";
-        document.querySelector("button").style.color = "#ffe8d6";
-        document.querySelector("button").style.border = "2px solid #ffe8d6";
-    };
-    const out = () => {
-        document.querySelector("button").style.background = "#ffe8d6";
-        document.querySelector("button").style.color = "#333d29";
+        document.querySelector("button.button").style.background = "#333d29";
+        document.querySelector("button.button").style.color = "#ffe8d6";
+        document.querySelector("button.button").style.border =
+            "2px solid #ffe8d6";
     };
     return (
         <div className="contact" id="contact">
@@ -47,7 +44,7 @@ function Contact() {
                         data-aos="fade-right"
                         data-aos-duration="1000"
                     ></textarea>
-                    <button onMouseOver={mouse} onMouseOut={out}>
+                    <button onMouseOver={mouse} className="button">
                         Submit
                     </button>
                 </div>

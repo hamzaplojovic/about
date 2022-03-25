@@ -111,7 +111,7 @@
     font-size: 15px;
 }
 
-.button {
+.exclusive {
     width: 200px;
     text-align: center;
     height: 35px;
@@ -119,10 +119,10 @@
     border: #333d29 2px solid;
     background: #ffe8d6;
     font-size: 18px;
-    transition: ease-in 0.3s all;
+    transition: ease-in 10s all;
 }
 
-.button:hover {
+.exclusive:hover {
     background-color: #333d29;
     color: #ffe8d6;
 }

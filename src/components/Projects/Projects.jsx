@@ -207,15 +207,6 @@ function Projects() {
                 >
                     Click the button to get access to exclusive projects
                 </h3>
-                <a href="https://hamzaplojovic-projects.pages.dev">
-                    <button
-                        data-aos="fade-up"
-                        data-aos-duration="1700"
-                        className="button"
-                    >
-                        Exclusive Projects
-                    </button>
-                </a>
             </div>
 
             <ProjectsTablet />
