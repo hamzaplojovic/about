@@ -1,17 +1,17 @@
 .projects {
-    background-color: #ffe8d6;
+    background-color: #ffefe0;
     width: 100%;
-    height: 700px;
-    color: #333d29;
+    height: 640px;
+    color: #282521;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .card {
-    color: #333d29;
+    color: #282521;
     width: 25%;
-    border: 3px solid #333d29;
+    border: 3px solid #282521;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@
 }
 
 .link {
-    color: #333d29;
+    color: #282521;
     text-decoration: underline;
 }
 
@@ -62,7 +62,7 @@
     .projects2 {
         display: flex;
         flex-direction: column;
-        background-color: #ffe8d6;
+        background-color: #ffefe0;
         width: 100%;
         height: 900px;
         color: #333d29;
@@ -85,7 +85,7 @@
     .projects3 {
         display: flex;
         flex-direction: column;
-        background-color: #ffe8d6;
+        background-color: #ffefe0;
         width: 100%;
         height: 1620px;
         color: #333d29;
@@ -117,12 +117,12 @@
     height: 35px;
     border-radius: 50px;
     border: #333d29 2px solid;
-    background: #ffe8d6;
+    background: #ffefe0;
     font-size: 18px;
     transition: ease-in 10s all;
 }
 
 .exclusive:hover {
     background-color: #333d29;
-    color: #ffe8d6;
+    color: #ffefe0;
 }

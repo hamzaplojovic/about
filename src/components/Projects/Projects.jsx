@@ -71,10 +71,6 @@ const ProjectsTablet = () => {
                     duration="1700"
                 />
             </div>
-            <h5 className="sign-up-text">
-                Sign up for other projects that are not on Github
-            </h5>
-            <button>Sign up</button>
         </div>
     );
 };
@@ -137,10 +133,6 @@ const ProjectsPhone = () => {
                     duration="1700"
                 />
             </div>
-            <h3 className="sign-up-text">
-                Sign up for other projects that are not on Github
-            </h3>
-            <button>Sign up</button>
         </div>
     );
 };
@@ -200,13 +192,6 @@ function Projects() {
                         duration="1700"
                     />
                 </div>
-                <h3
-                    className="sign-up-text"
-                    data-aos="fade-up"
-                    data-aos-duration="1700"
-                >
-                    Click the button to get access to exclusive projects
-                </h3>
             </div>
 
             <ProjectsTablet />
