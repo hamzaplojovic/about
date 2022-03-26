@@ -6,6 +6,8 @@
     color: #ffefe0;
     height: 70px;
     align-items: center;
+    position: fixed;
+    z-index: 999;
 }
 .navbar-div {
     margin-top: 5px;

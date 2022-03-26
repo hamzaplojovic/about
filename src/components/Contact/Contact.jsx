@@ -8,12 +8,6 @@ function Contact() {
         AOS.init();
         AOS.refresh();
     }, []);
-    const mouse = () => {
-        document.querySelector("button.button").style.background = "#333d29";
-        document.querySelector("button.button").style.color = "#ffe8d6";
-        document.querySelector("button.button").style.border =
-            "2px solid #ffe8d6";
-    };
     return (
         <div className="contact" id="contact">
             <h1 className="contact-heading" data-aos="fade-right">
@@ -44,9 +38,7 @@ function Contact() {
                         data-aos="fade-right"
                         data-aos-duration="1000"
                     ></textarea>
-                    <button onMouseOver={mouse} className="button">
-                        Submit
-                    </button>
+                    <button className="button">Submit</button>
                 </div>
             </div>
         </div>

@@ -23,7 +23,7 @@ const ProjectsTablet = () => {
     return (
         <div className="projects2" id="projects2">
             <h1 className="about-heading">Projects</h1>
-            <div className="cards">
+            <div className="cards cards-first">
                 <Card
                     name="hamzaplojovic"
                     desc="This is about readme for github."
@@ -60,6 +60,22 @@ const ProjectsTablet = () => {
                     name="mojnovipazar"
                     desc="Website for the old memorials of Novi Pazar."
                     link="github.com/hamzaplojovic/mojovipazar-rs"
+                    aos="fade-up"
+                    duration="1500"
+                />
+                <Card
+                    name="Travello"
+                    desc="Template for travel company."
+                    link="github.com/hamzaplojovic/Travel-Website"
+                    aos="fade-up"
+                    duration="1700"
+                />
+            </div>
+            <div className="cards">
+                <Card
+                    name="Github API"
+                    desc="Github profile page."
+                    link="github.com/hamzaplojovic/GithubAPI"
                     aos="fade-up"
                     duration="1500"
                 />

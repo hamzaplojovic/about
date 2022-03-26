@@ -49,6 +49,9 @@
     .card h4 {
         font-size: 13px;
     }
+    .links h1 {
+        font-size: 50px;
+    }
 }
 
 .projects2,
@@ -64,7 +67,7 @@
         flex-direction: column;
         background-color: #ffefe0;
         width: 100%;
-        height: 900px;
+        height: 1250px;
         color: #333d29;
         display: flex;
         align-items: center;
@@ -103,26 +106,15 @@
     .projects2 {
         display: none;
     }
+    .links h1 {
+        font-size: 30px;
+    }
+    .links {
+        height: 50%;
+        margin-top: 20vh;
+    }
 }
 
-.sign-up-text {
-    margin-top: 40px;
-    margin-bottom: 15px;
-    font-size: 15px;
-}
-
-.exclusive {
-    width: 200px;
-    text-align: center;
-    height: 35px;
-    border-radius: 50px;
-    border: #333d29 2px solid;
-    background: #ffefe0;
-    font-size: 18px;
-    transition: ease-in 10s all;
-}
-
-.exclusive:hover {
-    background-color: #333d29;
-    color: #ffefe0;
+.cards-first {
+    margin-top: 150px;
 }
