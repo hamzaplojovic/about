@@ -59,3 +59,9 @@ img:hover {
 .repeat {
     font-size: 18px;
 }
+
+@media only screen and (max-width: 716px) {
+    .quote-div {
+        display: none;
+    }
+}
