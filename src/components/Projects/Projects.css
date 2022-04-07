@@ -6,6 +6,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    scroll-snap-align: center;
+    scroll-snap-type: proximity;
 }
 
 .card {
@@ -74,7 +76,7 @@
         flex-direction: column;
     }
     .projects2 h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .projects2 .card {
         width: 35%;
@@ -117,9 +119,4 @@
 
 .cards-first {
     margin-top: 150px;
-}
-
-.icon {
-    width: 50px;
-    margin: 0;
 }
