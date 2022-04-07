@@ -9,7 +9,7 @@
 
 .contact-heading {
     padding-top: 50px;
-    color: #4d3a38;
+    color: #3b362e;
 }
 
 .send {
@@ -54,7 +54,7 @@
     border: none;
     height: 70px;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 20px;
     background-color: #3b362e;
     color: #ffe8d6;
     transition: all ease-in 0.3s;
@@ -79,7 +79,37 @@
     }
 }
 label {
-    color: #4d3a38;
+    color: #3b362e;
     font-weight: 900;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 716px) {
+    .contact-main {
+        width: 80%;
+    }
+    .contact {
+        background-color: #3b362e;
+    }
+    label {
+        color: #ffe8d6;
+    }
+    .send input {
+        background-color: #ffe8d6;
+    }
+    .send textarea {
+        background-color: #ffe8d6;
+    }
+    .send .button {
+        background-color: #ffe8d6;
+        color: #4d3a38;
+    }
+    .send .button:hover {
+        background-color: #3b362e;
+        color: #ffe8d6;
+        border: 2px solid #ffe8d6;
+    }
+    .contact-heading {
+        color: #ffe8d6;
+    }
 }

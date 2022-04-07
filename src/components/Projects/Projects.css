@@ -1,5 +1,5 @@
 .projects {
-    background-color: #ffefe0;
+    background-color: #ffe8d6;
     width: 100%;
     height: 100vh;
     color: #282521;
@@ -67,7 +67,7 @@
     .projects2 {
         display: flex;
         flex-direction: column;
-        background-color: #ffefe0;
+        background-color: #ffe8d6;
         width: 100%;
         height: 1100px;
         color: #333d29;
@@ -90,7 +90,7 @@
     .projects3 {
         display: flex;
         flex-direction: column;
-        background-color: #ffefe0;
+        background-color: #ffe8d6;
         width: 100%;
         height: 1790px;
         color: #333d29;
