@@ -13,6 +13,7 @@ function Contact() {
             <h1 className="contact-heading" data-aos="fade-right">
                 Contact
             </h1>
+            <hr className="hr" />
             <div className="contact-main">
                 <div className="send">
                     <label data-aos="fade-right" data-aos-duration="400">

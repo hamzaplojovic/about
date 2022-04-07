@@ -88,6 +88,11 @@ label {
     .contact-main {
         width: 80%;
     }
+    .hr {
+        background-color: #ffe8d6;
+        width: 35%;
+        margin-top: 35px;
+    }
     .contact {
         background-color: #3b362e;
     }
@@ -111,6 +116,12 @@ label {
     }
     .contact-heading {
         color: #ffe8d6;
+    }
+}
+
+@media only screen and (max-width: 966px) {
+    .contact-main {
+        width: 60%;
     }
 }
 

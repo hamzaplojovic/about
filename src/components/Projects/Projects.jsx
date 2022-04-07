@@ -23,6 +23,8 @@ const ProjectsTablet = () => {
     return (
         <div className="projects2" id="projects2">
             <h1 className="about-heading">Projects</h1>
+            <hr className="hr" />
+
             <div className="cards cards-first">
                 <Card
                     name="hamzaplojovic"
@@ -79,6 +81,7 @@ const ProjectsPhone = () => {
     return (
         <div className="projects3" id="projects3">
             <h1 className="about-heading">Projects</h1>
+            <hr className="hr" />
             <div className="cards">
                 <Card
                     name="hamzaplojovic"
@@ -146,6 +149,7 @@ function Projects() {
         <div>
             <div className="projects" id="projects">
                 <h1 className="about-heading">Projects</h1>
+                <hr className="hr" />
                 <div className="cards">
                     <Card
                         name="hamzaplojovic"
