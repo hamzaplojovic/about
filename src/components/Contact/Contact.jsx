@@ -45,6 +45,7 @@ function Contact() {
                         <textarea
                             data-aos="fade-right"
                             data-aos-duration="1000"
+                            name="message"
                         ></textarea>
                         <button className="button" type="submit" value="Send">
                             Submit
