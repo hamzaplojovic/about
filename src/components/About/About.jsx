@@ -34,7 +34,7 @@ const About = () => {
                     <h1>Upwork</h1>
                 </a>
                 <a
-                    href="https://www.hackerrank.com/dashboard"
+                    href="https://www.hackerrank.com/test08869"
                     data-aos="fade-right"
                     data-aos-duration="2800"
                 >
