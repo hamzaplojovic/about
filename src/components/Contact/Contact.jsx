@@ -17,7 +17,7 @@ function Contact() {
             <div className="contact-main">
                 <div className="send">
                     <form
-                        action="mailto:you@yourdmainhere.com"
+                        action="mailto:hamzaplojovic4@gmail.com"
                         method="post"
                         enctype="text/plain"
                     >
