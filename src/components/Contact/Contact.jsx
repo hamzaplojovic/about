@@ -16,30 +16,36 @@ function Contact() {
             <hr className="hr" />
             <div className="contact-main">
                 <div className="send">
-                    <label data-aos="fade-right" data-aos-duration="400">
-                        Name
-                    </label>
-                    <input
-                        type="text"
-                        data-aos="fade-right"
-                        data-aos-duration="400"
-                    />
-                    <label data-aos-duration="700" data-aos="fade-right">
-                        Email
-                    </label>
-                    <input
-                        type="email"
-                        data-aos="fade-right"
-                        data-aos-duration="700"
-                    />
-                    <label data-aos="fade-right" data-aos-duration="1000">
-                        Message
-                    </label>
-                    <textarea
-                        data-aos="fade-right"
-                        data-aos-duration="1000"
-                    ></textarea>
-                    <button className="button">Submit</button>
+                    <form
+                        action="mailto:you@yourdmainhere.com"
+                        method="post"
+                        enctype="text/plain"
+                    >
+                        <label data-aos="fade-right" data-aos-duration="400">
+                            Name
+                        </label>
+                        <input
+                            type="text"
+                            data-aos="fade-right"
+                            data-aos-duration="400"
+                        />
+                        <label data-aos-duration="700" data-aos="fade-right">
+                            Email
+                        </label>
+                        <input
+                            type="email"
+                            data-aos="fade-right"
+                            data-aos-duration="700"
+                        />
+                        <label data-aos="fade-right" data-aos-duration="1000">
+                            Message
+                        </label>
+                        <textarea
+                            data-aos="fade-right"
+                            data-aos-duration="1000"
+                        ></textarea>
+                        <button className="button">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>

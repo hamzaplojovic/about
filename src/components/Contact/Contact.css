@@ -21,7 +21,7 @@
     padding: 20px;
 }
 
-.send input {
+.send form input {
     width: 100%;
     height: 60px;
     margin-bottom: 20px;
@@ -34,7 +34,16 @@
     color: #ffe8d6;
 }
 
-.send textarea {
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+}
+
+.send form textarea {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -49,7 +58,7 @@
     color: #ffe8d6;
 }
 
-.send .button {
+.send form .button {
     width: 50%;
     border: none;
     height: 70px;
@@ -60,7 +69,7 @@
     transition: all ease-in 0.3s;
 }
 
-.send .button:hover {
+.send form .button:hover {
     background-color: #ffe8d6;
     color: #4d3a38;
     border: 3px solid #3b362e;
@@ -99,17 +108,19 @@ label {
     label {
         color: #ffe8d6;
     }
-    .send input {
+    .send form input {
         background-color: #ffe8d6;
+        color: #3b362e;
     }
-    .send textarea {
+    .send form textarea {
         background-color: #ffe8d6;
+        color: #3b362e;
     }
-    .send .button {
+    .send form .button {
         background-color: #ffe8d6;
         color: #4d3a38;
     }
-    .send .button:hover {
+    .send form .button:hover {
         background-color: #3b362e;
         color: #ffe8d6;
         border: 2px solid #ffe8d6;
