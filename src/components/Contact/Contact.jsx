@@ -28,6 +28,7 @@ function Contact() {
                             type="text"
                             data-aos="fade-right"
                             data-aos-duration="400"
+                            name="name"
                         />
                         <label data-aos-duration="700" data-aos="fade-right">
                             Email
@@ -36,6 +37,7 @@ function Contact() {
                             type="email"
                             data-aos="fade-right"
                             data-aos-duration="700"
+                            name="email"
                         />
                         <label data-aos="fade-right" data-aos-duration="1000">
                             Message
@@ -44,7 +46,9 @@ function Contact() {
                             data-aos="fade-right"
                             data-aos-duration="1000"
                         ></textarea>
-                        <button className="button">Submit</button>
+                        <button className="button" type="submit" value="Send">
+                            Submit
+                        </button>
                     </form>
                 </div>
             </div>
