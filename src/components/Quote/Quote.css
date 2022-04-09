@@ -7,7 +7,7 @@
 }
 
 img {
-    height: 550px;
+    height: 80vh;
     filter: sepia(50%);
     border-radius: 15px;
     padding-bottom: 80px;
