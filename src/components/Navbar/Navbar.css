@@ -8,6 +8,7 @@
     align-items: center;
     position: fixed;
     z-index: 999;
+    border-bottom: 1px solid #ffefe0;
 }
 .navbar-div {
     margin-top: 5px;
