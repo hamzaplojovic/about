@@ -27,7 +27,7 @@ const About = () => {
                     <h1>StackOverflow</h1>
                 </a>
                 <a
-                    href="https://www.upwork.com/nx/find-work/best-matches"
+                    href="https://www.upwork.com/freelancers/~0140264152a90ee19d"
                     data-aos="fade-right"
                     data-aos-duration="2500"
                 >
