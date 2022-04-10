@@ -8,6 +8,10 @@ function Contact() {
         AOS.init();
         AOS.refresh();
     }, []);
+    const submitHandler = (e) => {
+        e.preventDefault();
+        window.location.assign("mailto:hamzaplojovic4@gmail.com");
+    };
     return (
         <div className="contact" id="contact">
             <h1 className="contact-heading" data-aos="fade-right">
@@ -16,11 +20,7 @@ function Contact() {
             <hr className="hr" />
             <div className="contact-main">
                 <div className="send">
-                    <form
-                        action="mailto:hamzaplojovic4@gmail.com"
-                        method="post"
-                        enctype="text/plain"
-                    >
+                    <form>
                         <label data-aos="fade-right" data-aos-duration="400">
                             Name
                         </label>
@@ -28,7 +28,6 @@ function Contact() {
                             type="text"
                             data-aos="fade-right"
                             data-aos-duration="400"
-                            name="name"
                         />
                         <label data-aos-duration="700" data-aos="fade-right">
                             Email
@@ -37,7 +36,6 @@ function Contact() {
                             type="email"
                             data-aos="fade-right"
                             data-aos-duration="700"
-                            name="email"
                         />
                         <label data-aos="fade-right" data-aos-duration="1000">
                             Message
@@ -45,9 +43,8 @@ function Contact() {
                         <textarea
                             data-aos="fade-right"
                             data-aos-duration="1000"
-                            name="message"
                         ></textarea>
-                        <button className="button" type="submit" value="Send">
+                        <button className="button" onClick={submitHandler}>
                             Submit
                         </button>
                     </form>
