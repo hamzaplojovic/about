@@ -1,9 +1,19 @@
 div {
     color: #ffe8d6;
 }
+
+.home-text {
+    color: #3b362e;
+    background-color: #ffe8d6;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
 .about-main {
-    background: linear-gradient(#393a3769, transparent),
-        url("./wallpaperflare.com_wallpaper.jpg");
+    display: flex;
+    justify-content: center;
+    background-color: #ffe8d6;
     width: 100%;
     background-size: cover;
     height: 100vh;
@@ -21,8 +31,30 @@ div {
 }
 
 .heading {
+    border-right: 0.15em solid #3b362e;
+    overflow: hidden;
     margin: 0;
     font-size: 40px;
+    animation: typing 1.7s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #3b362e;
+    }
 }
 .icons {
     margin-top: 20px;
