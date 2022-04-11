@@ -5,7 +5,7 @@ div {
 .home-text {
     color: #3b362e;
     background-color: #ffe8d6;
-    width: 20%;
+    width: calc(100%-80%);
     display: flex;
     justify-content: center;
 }
