@@ -10,7 +10,18 @@ function Contact() {
     }, []);
     const submitHandler = (e) => {
         e.preventDefault();
-        window.location.assign("mailto:hamzaplojovic4@gmail.com");
+        var name = document.getElementById("name").value;
+        var message = document.getElementById("message").value;
+        var subject = document.getElementById("subject").value;
+        window.location.assign(
+            "mailto:hamzaplojovic4@gmail.com?subject=" +
+                subject +
+                "&body=Hi%2C%20I'm%20" +
+                name +
+                "%0D%0A%0D%0A" +
+                message.replaceAll(" ", "%20") +
+                "%0D%0A"
+        );
     };
     return (
         <div className="contact" id="contact">
@@ -28,6 +39,7 @@ function Contact() {
                             type="text"
                             data-aos="fade-right"
                             data-aos-duration="400"
+                            id="name"
                         />
                         <label data-aos-duration="700" data-aos="fade-right">
                             Email
@@ -36,6 +48,7 @@ function Contact() {
                             type="email"
                             data-aos="fade-right"
                             data-aos-duration="700"
+                            id="subject"
                         />
                         <label data-aos="fade-right" data-aos-duration="1000">
                             Message
@@ -43,6 +56,7 @@ function Contact() {
                         <textarea
                             data-aos="fade-right"
                             data-aos-duration="1000"
+                            id="message"
                         ></textarea>
                         <button className="button" onClick={submitHandler}>
                             Submit
