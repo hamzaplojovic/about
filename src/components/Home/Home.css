@@ -8,6 +8,7 @@ div {
     width: calc(100%-80%);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .about-main {
@@ -32,6 +33,7 @@ div {
 
 .heading {
     border-right: 0.15em solid #3b362e;
+    padding-right: 10px;
     overflow: hidden;
     margin: 0;
     font-size: 40px;
@@ -75,10 +77,4 @@ svg {
 .animation {
     width: 100%;
     background-color: #393a3769;
-}
-
-@media only screen and (max-width: 1223px) {
-    .about-main h1 {
-        margin-bottom: 150px;
-    }
 }
