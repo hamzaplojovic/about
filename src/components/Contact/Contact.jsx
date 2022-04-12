@@ -35,29 +35,15 @@ function Contact() {
                         <label data-aos="fade-right" data-aos-duration="400">
                             Name
                         </label>
-                        <input
-                            type="text"
-                            data-aos="fade-right"
-                            data-aos-duration="400"
-                            id="name"
-                        />
+                        <input type="text" id="name" />
                         <label data-aos-duration="700" data-aos="fade-right">
                             Email
                         </label>
-                        <input
-                            type="email"
-                            data-aos="fade-right"
-                            data-aos-duration="700"
-                            id="subject"
-                        />
+                        <input type="email" id="subject" />
                         <label data-aos="fade-right" data-aos-duration="1000">
                             Message
                         </label>
-                        <textarea
-                            data-aos="fade-right"
-                            data-aos-duration="1000"
-                            id="message"
-                        ></textarea>
+                        <textarea id="message"></textarea>
                         <button className="button" onClick={submitHandler}>
                             Submit
                         </button>
