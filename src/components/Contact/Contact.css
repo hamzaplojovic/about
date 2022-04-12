@@ -1,7 +1,7 @@
 .contact {
     width: 100%;
     height: 650px;
-    background-color: #9dbeb7;
+    background-color: #ffe8d6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
 
 .contact-heading {
     padding-top: 50px;
-    color: #efe6d5;
+    color: #3b362e;
 }
 
 .send {
@@ -26,12 +26,12 @@
     height: 60px;
     margin-bottom: 20px;
     margin-top: 10px;
-    background-color: #efe6d5;
+    background-color: #3b362e;
     border: none;
     border-radius: 10px;
     padding-left: 10px;
     font-size: 16px;
-    color: #9dbeb7;
+    color: #ffe8d6;
 }
 
 form {
@@ -48,14 +48,14 @@ form {
     margin-top: 10px;
     margin-bottom: 20px;
     height: 200px;
-    background-color: #efe6d5;
+    background-color: #3b362e;
     border: none;
     border-radius: 10px;
     padding-left: 10px;
     padding-top: 10px;
     font-size: 18px;
     resize: none;
-    color: #9dbeb7;
+    color: #ffe8d6;
 }
 
 .send form .button {
@@ -64,15 +64,15 @@ form {
     height: 70px;
     border-radius: 10px;
     font-size: 20px;
-    background-color: #efe6d5;
-    color: #9dbeb7;
+    background-color: #3b362e;
+    color: #ffe8d6;
     transition: all ease-in 0.3s;
 }
 
 .send form .button:hover {
-    background-color: #9dbeb7;
-    color: #efe6d5;
-    border: 3px solid #efe6d5;
+    background-color: #ffe8d6;
+    color: #4d3a38;
+    border: 3px solid #3b362e;
 }
 
 .contact-main {
@@ -88,7 +88,7 @@ form {
     }
 }
 label {
-    color: #efe6d5;
+    color: #3b362e;
     font-weight: 900;
     font-size: 20px;
 }

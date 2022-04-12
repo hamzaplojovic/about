@@ -2,13 +2,13 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
-    background-color: #efe6d5;
-    color: #9dbeb7;
+    background-color: #3b362e;
+    color: #ffefe0;
     height: 70px;
     align-items: center;
     position: fixed;
     z-index: 999;
-    border-bottom: 5px solid #9dbeb7;
+    border-bottom: 1px solid #ffefe0;
 }
 .navbar-div {
     margin-top: 5px;
@@ -21,7 +21,6 @@
 }
 .navbar .navbar-div h2 {
     font-weight: 250;
-    color: #ffa393;
 }
 
 @media only screen and (max-width: 1223px) {
@@ -52,9 +51,4 @@
     h2 {
         font-size: 17px;
     }
-}
-
-.a2 {
-    text-decoration: none;
-    color: #9dbeb7;
 }

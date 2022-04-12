@@ -3,8 +3,8 @@ div {
 }
 
 .home-text {
-    color: #efe6d5;
-    background-color: #9dbeb7;
+    color: #3b362e;
+    background-color: #ffe8d6;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@ div {
 .about-main {
     display: flex;
     justify-content: center;
-    background-color: #9dbeb7;
+    background-color: #ffe8d6;
     width: 100%;
     background-size: cover;
     height: 100vh;
@@ -26,10 +26,13 @@ div {
     align-items: center;
     flex-direction: column;
     padding-top: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .heading {
-    border-right: 0.15em solid #ffa393;
+    border-right: 0.15em solid #3b362e;
     padding-right: 10px;
     overflow: hidden;
     margin: 0;
@@ -52,7 +55,7 @@ div {
         border-color: transparent;
     }
     50% {
-        border-color: #ffa393;
+        border-color: #3b362e;
     }
 }
 .icons {
