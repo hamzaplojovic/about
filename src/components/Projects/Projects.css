@@ -1,17 +1,17 @@
 .projects {
-    background-color: #ffe8d6;
+    background-color: #9dbeb7;
     width: 100%;
     height: 750px;
-    color: #282521;
+    color: #efe6d5;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .card {
-    color: #282521;
+    color: #efe6d5;
     width: 25%;
-    border: 3px solid #282521;
+    border: 6px solid #efe6d5;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@
 }
 
 .link {
-    color: #282521;
+    color: #592f27;
     text-decoration: underline;
 }
 
@@ -120,5 +120,5 @@
 }
 
 .hr {
-    background-color: #3b362e;
+    background-color: #ffa393;
 }
