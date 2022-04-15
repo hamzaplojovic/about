@@ -10,9 +10,11 @@ const Home = (props) => {
     }, []);
     return (
         <div className="about-main">
-            <div className="home-text">
-                <h1 className="heading">hamzaplojovic.</h1>
-            </div>
+            <a href="#about">
+                <div className="home-text">
+                    <h1 className="heading">hamzaplojovic.</h1>
+                </div>
+            </a>
         </div>
     );
 };
