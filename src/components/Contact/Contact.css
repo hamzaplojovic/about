@@ -93,6 +93,10 @@ label {
     font-size: 20px;
 }
 
+.hr1 {
+    background-color: #d0e1f9;
+}
+
 .hr2 {
     background-color: #283655;
 }

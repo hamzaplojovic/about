@@ -81,7 +81,7 @@ const ProjectsPhone = () => {
     return (
         <div className="projects3" id="projects3">
             <h1 className="about-heading">Projects</h1>
-            <hr className="hr" />
+            <hr className="hr1" />
             <div className="cards">
                 <Card
                     name="hamzaplojovic"
