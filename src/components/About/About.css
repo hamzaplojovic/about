@@ -3,7 +3,7 @@
 }
 
 .about {
-    background-color: #3b362e;
+    background-color: #d0e1f9;
     width: 100%;
     height: 85vh;
     display: flex;
@@ -19,7 +19,7 @@ hr {
     height: 4px;
     margin-top: 20px;
     border: none;
-    background-color: #ffe8d6;
+    background-color: #1e1f26;
 }
 
 .links {
@@ -35,7 +35,7 @@ hr {
     text-decoration: underline;
 }
 
-a {
+.a {
     text-decoration: none;
-    color: #ffe8d6;
+    color: #1e1f26;
 }

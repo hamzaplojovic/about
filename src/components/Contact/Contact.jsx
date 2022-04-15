@@ -28,7 +28,7 @@ function Contact() {
             <h1 className="contact-heading" data-aos="fade-right">
                 Contact
             </h1>
-            <hr className="hr" />
+            <hr className="hr2" />
             <div className="contact-main">
                 <div className="send">
                     <form>

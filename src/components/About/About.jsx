@@ -16,6 +16,7 @@ const About = () => {
                     href="https://www.codewars.com/users/hamzaplojovic"
                     data-aos="fade-right"
                     data-aos-duration="1000"
+                    className="a"
                 >
                     <h1>Codewars</h1>
                 </a>
@@ -23,6 +24,7 @@ const About = () => {
                     href="https://stackoverflow.com/users/17927225/hamza-plojovic"
                     data-aos="fade-right"
                     data-aos-duration="1750"
+                    className="a"
                 >
                     <h1>StackOverflow</h1>
                 </a>
@@ -30,6 +32,7 @@ const About = () => {
                     href="https://www.upwork.com/freelancers/~0140264152a90ee19d"
                     data-aos="fade-right"
                     data-aos-duration="2500"
+                    className="a"
                 >
                     <h1>Upwork</h1>
                 </a>
@@ -37,6 +40,7 @@ const About = () => {
                     href="https://www.hackerrank.com/test08869"
                     data-aos="fade-right"
                     data-aos-duration="2800"
+                    className="a"
                 >
                     <h1>HackerRank</h1>
                 </a>
