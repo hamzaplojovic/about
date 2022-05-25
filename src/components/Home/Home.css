@@ -1,6 +1,6 @@
 .home-text {
-    color: #d0e1f9;
-    background-color: #1e1f26;
+    color: #B8B8B8;
+    background-color: #1F1F1F;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@
 .about-main {
     display: flex;
     justify-content: center;
-    background-color: #1e1f26;
+    background-color: #1F1F1F;
     width: 100%;
     background-size: cover;
     height: 100vh;
@@ -28,7 +28,7 @@
 }
 
 .heading {
-    border-right: 0.15em solid #4d648d;
+    border-right: 0.15em solid #fffefe;
     padding-right: 10px;
     overflow: hidden;
     margin: 0;
@@ -51,7 +51,7 @@
         border-color: transparent;
     }
     50% {
-        border-color: #4d648d;
+        border-color: #eee4e4;
     }
 }
 .icons {
