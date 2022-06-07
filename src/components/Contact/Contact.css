@@ -9,7 +9,7 @@
 
 .contact-heading {
     padding-top: 50px;
-    color: #b0b0b0;
+    color: white;
 }
 
 .send {
@@ -65,13 +65,13 @@ form {
     border-radius: 10px;
     font-size: 20px;
     background-color: #2f2f2c;
-    color: #b0b0b0;
+    color: white;
     transition: all ease-in 0.3s;
 }
 
 .send form .button:hover {
-    background-color: #b0b0b0;
-    color: black;
+    background-color: white;
+    color:black;
 }
 
 .contact-main {
@@ -87,17 +87,17 @@ form {
     }
 }
 label {
-    color: #b0b0b0;
+    color: white;
     font-weight: 900;
     font-size: 20px;
 }
 
 .hr1 {
-    background-color: white;
+    background-color: rgb(98, 255, 0);
 }
 
 .hr2 {
-    background-color: white;
+    background-color:rgb(98, 255, 0);
 }
 
 @media only screen and (max-width: 716px) {

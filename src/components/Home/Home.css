@@ -1,5 +1,5 @@
 .home-text {
-    color: #B8B8B8;
+    color: white;
     background-color: #1F1F1F;
     width: 100%;
     display: flex;
@@ -28,7 +28,7 @@
 }
 
 .heading {
-    border-right: 0.15em solid #fffefe;
+    border-right: 0.15em solid rgb(98, 255, 0);
     padding-right: 10px;
     overflow: hidden;
     margin: 0;
@@ -51,7 +51,7 @@
         border-color: transparent;
     }
     50% {
-        border-color: #eee4e4;
+        border-color: rgb(98, 255, 0);
     }
 }
 .icons {

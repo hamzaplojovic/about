@@ -46,7 +46,7 @@ img:hover {
 .h3:hover,
 .h1:hover {
     box-shadow: inset 200px 0 0 0 #1F1F1F;
-    color: white;
+    color: rgb(98, 255, 0);
 }
 
 .h3 {

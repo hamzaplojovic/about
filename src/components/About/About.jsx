@@ -13,12 +13,12 @@ const About = () => {
             <hr />
             <div className="links">
                 <a
-                    href="https://www.codewars.com/users/hamzaplojovic"
+                    href="https://leetcode.com/hamzaplojovic/"
                     data-aos="fade-right"
                     data-aos-duration="1000"
                     className="a"
                 >
-                    <h1>Codewars</h1>
+                    <h1>Leetcode</h1>
                 </a>
                 <a
                     href="https://stackoverflow.com/users/17927225/hamza-plojovic"

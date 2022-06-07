@@ -3,12 +3,12 @@
     width: 100%;
     justify-content: space-around;
     background-color: #070707;
-    color: #B8B8B8;
+    color: white;
     height: 70px;
     align-items: center;
     position: fixed;
     z-index: 999;
-    border-bottom: 1px solid #B8B8B8;
+    border-bottom: 1px solid white;
 }
 .navbar-div {
     margin-top: 5px;
@@ -54,5 +54,5 @@
 }
 
 .a2 {
-    color: #B8B8B8;
+    color: rgb(98, 255, 0);
 }
