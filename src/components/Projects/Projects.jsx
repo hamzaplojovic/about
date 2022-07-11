@@ -34,25 +34,25 @@ const ProjectsTablet = () => {
                     duration="700"
                 />
                 <Card
-                    name="Lua"
-                    desc="This is Lua course that i am going to."
-                    link="github.com/hamzaplojovic/Lua"
+                    name="JavaScript"
+                    desc="This is JS course that i am going to"
+                    link="github.com/hamzaplojovic/javascript_camp"
                     aos="fade-down"
                     duration="900"
                 />
             </div>
             <div className="cards">
                 <Card
-                    name="Todo"
+                    name="Find Laptop"
                     desc="Todo app to make yourself more organized."
-                    link="github.com/hamzaplojovic/React-Todo"
+                    link="github.com/hamzaplojovic/find_laptop"
                     aos="fade-down"
                     duration="1100"
                 />
                 <Card
                     name="Auto Clicker"
                     desc="This is python bot that clicks 100 cps"
-                    link="github.com/hamzaplojovic/auto-clicker"
+                    link="github.com/hamzaplojovic/auto_clicker"
                     aos="fade-up"
                     duration="1300"
                 />
@@ -61,14 +61,14 @@ const ProjectsTablet = () => {
                 <Card
                     name="mojnovipazar"
                     desc="Website for the old memorials of Novi Pazar."
-                    link="github.com/hamzaplojovic/mojovipazar-rs"
+                    link="github.com/hamzaplojovic/mojovipazar"
                     aos="fade-up"
                     duration="1500"
                 />
                 <Card
-                    name="Travello"
-                    desc="Template for travel company."
-                    link="github.com/hamzaplojovic/Travel-Website"
+                    name="Expense Tracker"
+                    desc="Expense Tracker"
+                    link="github.com/hamzaplojovic/expense_tracker"
                     aos="fade-up"
                     duration="1700"
                 />
@@ -93,9 +93,9 @@ const ProjectsPhone = () => {
             </div>
             <div className="cards">
                 <Card
-                    name="Lua"
-                    desc="This is Lua course that i am going to."
-                    link="github.com/hamzaplojovic/Lua"
+                    name="JavaScript"
+                    desc="This is JS course that i am going to"
+                    link="github.com/hamzaplojovic/javascript_camp"
                     aos="fade-down"
                     duration="900"
                 />
@@ -159,9 +159,9 @@ function Projects() {
                         duration="700"
                     />
                     <Card
-                        name="Lua"
-                        desc="This is Lua course that i am going to."
-                        link="github.com/hamzaplojovic/Lua"
+                        name="JavaScript"
+                        desc="This is JS course that i am going to"
+                        link="github.com/hamzaplojovic/javascript_camp"
                         aos="fade-down"
                         duration="900"
                     />
